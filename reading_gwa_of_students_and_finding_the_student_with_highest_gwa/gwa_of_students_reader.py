@@ -12,4 +12,12 @@ with open("reading_gwa_of_students_and_finding_the_student_with_highest_gwa/stud
         student_data.append((name, gwa))
 
 # 3. Initialize highest student name and GWA as None and 0 and find the student with highest GWA
+highest_gwa = 0
+student_name_with_highest_gwa = None
+
+for name, gwa in student_data:
+    if gwa > highest_gwa:
+       highest_gwa = gwa
+       student_name_with_highest_gwa = (name, 5.00 - gwa + 1.00) 
+
 # 4. Print the student with the highest GWA
