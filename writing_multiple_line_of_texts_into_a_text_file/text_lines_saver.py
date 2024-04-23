@@ -10,3 +10,4 @@ with open("writing_multiple_line_of_texts_into_a_text_file/my_life.txt", "w") as
         if more_lines != 'y':
             break
 # 3. Display a text indicating the texts inputted was written to 'my_life.txt' successfully
+print("\nTexts written to 'my_life.txt' successfully.")
