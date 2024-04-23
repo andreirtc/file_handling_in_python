@@ -21,3 +21,4 @@ for name, gwa in student_data:
        student_name_with_highest_gwa = (name, 5.00 - gwa + 1.00) 
 
 # 4. Print the student with the highest GWA
+print(f"The student with the highest GWA is {student_name_with_highest_gwa[0]} with a GWA of {student_name_with_highest_gwa[1]:.2f}")
