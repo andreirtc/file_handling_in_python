@@ -11,11 +11,11 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 
 # 4. Extract the even numbers from the text file and name it "even.txt"
-with open("even.txt", "w") as even_file:
+with open("extracting_even_and_odd_numbers_from_a_text_file/even.txt", "w") as even_file:
     for num in even_numbers:
         even_file.write(str(num) + "\n")
 
 # 5. Extract the odd numbers from the text file and name it "odd.txt"
-with open("odd.txt", "w") as odd_file:
+with open("extracting_even_and_odd_numbers_from_a_text_file/odd.txt", "w") as odd_file:
     for num in odd_numbers:
         odd_file.write(str(num) + "\n")
